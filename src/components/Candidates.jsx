@@ -44,8 +44,8 @@ function Candidates() {
                   
                     <tbody>
                    
-                { candi.length>0?
-                   candi.map((item,index)=>(
+                { candi?.length>0?
+                   candi?.map((item,index)=>(
                    <tr>
                     <td>{index+1}</td>
                       <td>{item.cname}</td>

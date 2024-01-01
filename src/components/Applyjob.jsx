@@ -88,8 +88,8 @@ function Applyjob() {
                   
                     <tbody>
                     {
-                    jlist.length>0?
-                    jlist.map((data,index)=>(
+                    jlist?.length>0?
+                    jlist?.map((data,index)=>(
                     <tr>
                       <td>{index+1}</td>
                       <td>{data.jobtitle}</td>
